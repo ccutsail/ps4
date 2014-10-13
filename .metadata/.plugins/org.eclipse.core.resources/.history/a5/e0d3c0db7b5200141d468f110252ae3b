@@ -1,0 +1,15 @@
+package pkg;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class FVTest {
+
+	@Test
+	public void test() {
+		FV_Calculator boom = new FV_Calculator();
+		boom.futureValue("3", "2", "1");
+	}
+
+}

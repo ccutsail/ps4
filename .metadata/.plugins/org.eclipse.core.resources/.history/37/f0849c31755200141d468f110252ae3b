@@ -1,0 +1,18 @@
+
+
+public class FV_Calculator {
+
+	
+	
+
+	double future_value;
+	double present_value;
+	double interest_rate;
+	double period;
+	
+	annualized_interest_rate = Math.Pow(1+interest_rate,period);
+	future_value = present_value*(annualized_interest_rate); 
+	
+}
+	
+}

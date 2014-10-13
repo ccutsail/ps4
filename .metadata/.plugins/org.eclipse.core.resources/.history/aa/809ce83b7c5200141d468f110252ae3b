@@ -1,0 +1,23 @@
+package pkg;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class FVTest {
+
+
+	@Test
+	public void test() {
+		FV_Calculator.futureValue("3", "2", "1");
+		assertEquals(FV_Calculator.futureValue("3", "2", "1"), 8.0, 2);
+		assertEquals(FV_Calculator.futureValue(".02", "1000", "10"), 1218.99, .01);
+		assertEquals(FV_Calculator.futureValue(".1", "3234.29", "3"), 4304.83, .1);
+		assertEquals(FV_Calculator.futureValue("3", "2", "1"), 8.0, 2);
+		assertEquals(FV_Calculator.futureValue("3", "2", "1"), 8.0, 2);
+		assertEquals(FV_Calculator.futureValue("3", "2", "1"), 8.0, 2);
+		assertEquals(FV_Calculator.futureValue("3", "2", "1"), 8.0, 2);
+		assertEquals(FV_Calculator.futureValue("3", "2", "1"), 8.0, 2);
+	}
+
+}
