@@ -1,0 +1,96 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.androidcalcengine.FVCalc" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the CISC181 Future Value Calculator!"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="29dp"
+        android:layout_y="75dp"
+        android:text="Present Value:  $"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_x="38dp"
+        android:layout_y="160dp"
+        android:text="Interest Rate:  "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="47dp"
+        android:layout_y="258dp"
+        android:text="Number of Periods (Years): "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/fvcalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="211dp"
+        android:layout_y="353dp"
+        android:text="Calculate!" />
+
+    <EditText
+        android:id="@+id/pv"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_x="229dp"
+        android:layout_y="58dp"
+        android:ems="10"
+        android:inputType="number|text"
+        android:text="1000.00" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/ir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="231dp"
+        android:layout_y="165dp"
+        android:ems="10"
+        android:inputType="number|text"
+        android:text="0.02" />
+
+    <EditText
+        android:id="@+id/pd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="319dp"
+        android:layout_y="263dp"
+        android:ems="10"
+        android:inputType="number|text"
+        android:text="10" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_x="77dp"
+        android:layout_y="453dp"
+        android:ems="10"
+        android:text="Future Value Outputs Here!" />
+
+</AbsoluteLayout>

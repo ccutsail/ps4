@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:splitMotionEvents="true" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_x="174dp"
+        android:layout_y="22dp"
+        android:ems="10"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_x="176dp"
+        android:layout_y="99dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="34dp"
+        android:text="Present Value: $"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="112dp"
+        android:text="Interest Rate: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="186dp"
+        android:text="Number of Years: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_x="179dp"
+        android:layout_y="174dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/calcFV"
+        android:layout_width="113dp"
+        android:layout_height="61dp"
+        android:layout_x="97dp"
+        android:layout_y="248dp"
+        android:text="Calculate!" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_x="30dp"
+        android:layout_y="356dp"
+        android:ems="10"
+        android:text="Future Value Outputs Here!" />
+
+</AbsoluteLayout>

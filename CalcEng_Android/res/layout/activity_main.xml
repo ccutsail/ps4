@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.calceng_android.MainActivity" >
+
+    <EditText
+        android:id="@+id/present_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:inputType="none"
+        android:text="@string/Present Value: " />
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/int_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/present_value"
+        android:layout_alignStart="@+id/present_value"
+        android:layout_below="@+id/present_value"
+        android:layout_marginTop="25dp"
+        android:contentDescription="PlainTextIR"
+        android:ems="10"
+        android:inputType="none"
+        android:text="@string/Interest Rate:" />
+
+    <EditText
+        android:id="@+id/period"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/int_rate"
+        android:layout_alignStart="@+id/int_rate"
+        android:layout_below="@+id/int_rate"
+        android:layout_marginTop="21dp"
+        android:contentDescription="@string/action_settings"
+        android:ems="10"
+        android:inputType="none"
+        android:text="@string/Number of Years:" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/present_value"
+        android:layout_alignBottom="@+id/present_value"
+        android:layout_toRightOf="@+id/present_value"
+        android:layout_toEndOf="@+id/present_value"
+        android:ems="10"
+        android:inputType="text" />
+
+</RelativeLayout>

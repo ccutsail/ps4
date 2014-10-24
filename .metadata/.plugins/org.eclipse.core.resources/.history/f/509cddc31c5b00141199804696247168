@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">androidCalcEngine</string>
+    <string name="present_value">Present Value: $</string>
+    <string name="action_settings">Settings</string>
+    <string name="interest_rate">Interest Rate: </string>
+    <string name="numYears">Number of Years: </string>
+
+</resources>

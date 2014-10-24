@@ -14,6 +14,12 @@ public class FV_Calculator {
 	double annualized_interest_rate = Math.pow(1+interest_rate,period);
 	double future_value = present_value*(annualized_interest_rate); 
 	return future_value;
+	}
+	
+	public static double futureValue(double ir, double pv, int pd){
+	double annualized_interest_rate = Math.pow(1+ir,pd);
+	double future_value = pv*(annualized_interest_rate); 
+	return future_value;
 }
 	
 }
